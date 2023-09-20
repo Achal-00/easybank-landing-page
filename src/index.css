@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-links:hover {
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%))
+        border-box;
+  }
+}
